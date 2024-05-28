@@ -1,4 +1,4 @@
-# Cookie Clicker Game 🍪
+# Tutorial for a Cookie Clicker Game 🍪
 
 Welcome to Cookie Clicker Game, a simple and addictive browser-based game where you click on a cookie and thats it! How many cicks can you do before succumbing to arthritis?
 
