@@ -1,0 +1,62 @@
+
+body {
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    text-align: center; /* Center align child elements */
+}
+
+#cookie {
+    background-color: brown;
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+#cookie-count {
+    font-size: 20px;
+}
+
+/* Adding special effects ---------------------------------- */
+
+@keyframes crumbs-fall {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(300px);
+        opacity: 1;
+    }
+}
+
+.crumbs {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #d4a451;
+    border-radius: 50%;
+    animation: crumbs-fall 1s ease-out;
+}
+
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-10px); }
+    40% { transform: translateX(10px); }
+    60% { transform: translateX(-10px); }
+    80% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+}
+
+#cookie.shake {
+    animation: shake 0.5s ease;
+}
