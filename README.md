@@ -13,7 +13,7 @@ Welcome to Cookie Clicker Game, a simple and addictive browser-based game where 
 
 ## Demo
 
-Check out the live demo [here](https://example.com).
+Check out the live demo [here](https://notanotheraveragejoe.github.io/JavaScript-cookie-clicker-tutorial-/).
 
 ## Features
 - Click on the cookie to earn points
